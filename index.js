@@ -16,61 +16,62 @@ let highScores = [
 ]
 
 let questions = [
-  {
-    question: "Turtles shells are made of how many bones fused together?\n",
-    options: ["a: over 500", "b: over 50", "c: exactly 30", "d: under 20"],
-    answer: "b"
-  },
-  {
-    question: "A whale shark is the largest fish in the world. They are around the same size as...\n",
-    options: ["a: A school bus", "b: A train", "c: A car", "d: A bicycle"],
-    answer: "a"
-  },
-  {
-    question: "What’s the largest species of dolphin?\n",
-    options: ["a: Shark", "b: Sperm whale", "c: Orca", "d: Clown fish"],
-    answer: "c"
-  },
-  {
-    question: "Female hawksbill turtles make funny sounds when nesting, which can sound like\n",
-    options: ["a: A siren", "b: A blech", "c: A Bark", "d: Crying"],
-    answer: "b"
-  },
-  {
-    question: "Which of these is not a species of turtle?\n",
-    options: ["a: Loggerhead", "b: Olive Ridley", "c: Green Shell", "d: Hawksbill"],
-    answer: "c"
-  },
-  {
-    question: "How many species of marine turtles are there?\n",
-    options: ["a: 7", "b: 6", "c: 5", "d: 4"],
-    answer: "a"
-  },
-  {
-    question: "How many species of shark are there?\n",
-    options: ["a: over 50", "b: over 300", "c: over 500", "d: over 1000"],
-    answer: "c"
-  },
-  {
-    question: "Narwhals are known as the unicorn of the sea – what is their tusk made from?\n",
-    options: ["a: Unicorn dust", "b: An overgrown canine", "c: Hardend skin", "d: No one Knows"],
-    answer: "b"
-  },
-  {
-    question: "The heart of a shrimp is located on its\n",
-    options: ["a: Tail", "b: Head", "c: Bottom", "d: Stomach"],
-    answer: "b"
-  },
-  {
-    question: "How many hearts does an octopus has?\n",
-    options: ["a: 3", "b: 5", "c: 1", "d: 9"],
-    answer: "a"
-  },
-]
+    {//1
+      question:"What is my full name ",
+      options:[
+        "a. Hitesh",
+        "b. Hitesh Kumar",
+        "c. Hitesh Kumar Sahu",
+        "c. Mr. Kumar",
+      ],
+      answer:"c"
+    },
+    {//2
+      question:"Which TV series I am binge watching?",
+      options:[
+        "a. House of the dragon",
+        "b. Friends",
+        "c. The Boys",
+        "d. Behind her eyes"
+      ],
+      answer:"c"
+    },
+    {//3
+      question:"Where I am from? ",
+    options:[
+      "a. Jamshedpur",
+      "b. Indore",
+      "c. Pune",
+      "d. Varanasi"
+    ],
+     answer:"a"
+    },
+    {
+      question:"My favouraite food",
+    options:[
+      "a. Biryani",
+      "b. Maggi",
+      "c. Sandwich",
+      "d. Strogonoff"
+    ],
+     answer:"d"
+    },
+    {//4
+      question:"which games do I like to play?",
+    options:[
+      "a. Dying Light",
+      "b. Hitman",
+      "c. Farcry 4",
+      "d. Dead Island"
+    ],
+     answer:"c"
+    }
+  ]
+  
 // WELCOME
 function welcome() {
   log(chalk.redBright.bold("\n!!RULES!!\n"));
-  log(chalk.greenBright.bold("So here are the rules of the game:\n1. There are only 3 questions.\n2. You have to answer all correctly.\nALL THE BEST!\nLet's begin!!\n----------------------------"));
+  log(chalk.greenBright.bold("So here are the rules of the game:\n1. There are only 10 questions.\n2. You have to answer all correctly.\nALL THE BEST!\nLet's begin!!\n----------------------------"));
   readline.keyInPause(chalk.gray('\nPress any key to start the game...'));
   game();
 }
