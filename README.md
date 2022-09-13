@@ -2,9 +2,8 @@
 
 CLI app that checks how much my friends know me 🥺
 
-```
-![Screenshot](screenshot.PNG)
-```
+![Screenshot](screenshot.PNG?raw=true)
+
 
 ## Getting Started
 
