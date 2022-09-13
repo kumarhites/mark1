@@ -1,6 +1,6 @@
 # How well do you know me!
 
-CLI app that checks how much my friends know me 🥺
+CLI app to check if my friends know me 😥
 
 ![Screenshot](screenshot.PNG?raw=true)
 
